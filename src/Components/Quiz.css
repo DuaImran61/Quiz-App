@@ -1,0 +1,104 @@
+body {
+    font-family: monospace;
+    background: #A1BE95;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 100vh;
+}
+
+.Quiz-Container {
+    width: 500px;
+    background: whitesmoke;
+    border-radius: 4px;
+    margin-top: 100px;
+    padding: 30px 60px;
+    box-sizing: border-box;
+
+    .active-question-no{
+        font-size: 40px;
+        font-weight: 200;
+        color: saddlebrown;
+    }
+
+    .total-no-question{
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(219, 165, 123);
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    ul{
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+
+    li{
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 16px;
+        padding: 11px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    .selected-answer{
+        background:  #F98866;
+        color: white;
+        border: 1px solid black;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    background-color: #F98866;
+    outline: none;
+    border-radius: 9px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: #D3D3D3;
+}
+
+.Result{
+    font-size: 20px;
+    text-align: center;
+
+    h3{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    span{
+        color:  #F98866;
+        font-size: 22px;
+    }
+
+    
+}
+
+
